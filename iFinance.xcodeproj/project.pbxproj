@@ -14,6 +14,7 @@
 		CAF911021FC1247C006DE139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF911001FC1247C006DE139 /* LaunchScreen.storyboard */; };
 		CAF9110D1FC1247C006DE139 /* iFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9110C1FC1247C006DE139 /* iFinanceTests.swift */; };
 		CAF911181FC1247C006DE139 /* iFinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF911171FC1247C006DE139 /* iFinanceUITests.swift */; };
+		CAF911261FC12536006DE139 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF911251FC12536006DE139 /* RootPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CAF911131FC1247C006DE139 /* iFinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFinanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF911171FC1247C006DE139 /* iFinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFinanceUITests.swift; sourceTree = "<group>"; };
 		CAF911191FC1247C006DE139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF911251FC12536006DE139 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CAF910F71FC1247C006DE139 /* AppDelegate.swift */,
 				CAF910F91FC1247C006DE139 /* ViewController.swift */,
+				CAF911251FC12536006DE139 /* RootPageViewController.swift */,
 				CAF910FB1FC1247C006DE139 /* Main.storyboard */,
 				CAF910FE1FC1247C006DE139 /* Assets.xcassets */,
 				CAF911001FC1247C006DE139 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF911261FC12536006DE139 /* RootPageViewController.swift in Sources */,
 				CAF910FA1FC1247C006DE139 /* ViewController.swift in Sources */,
 				CAF910F81FC1247C006DE139 /* AppDelegate.swift in Sources */,
 			);
